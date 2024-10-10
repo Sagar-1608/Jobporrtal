@@ -13,7 +13,7 @@ export function CompanyBanner() {
     <>
       {type === "recruiter" ? (
         <>
-          <div className="md:w-10/12 w-11/12 flex flex-wrap mx-auto">
+          {/* <div className="md:w-10/12 w-11/12 flex flex-wrap mx-auto">
             <div className="text-left lg:w-5/12 w-12/12 lg:pt-24 pt-12 pb-20 mx-auto">
               <h1 className="text-black lg:text-6xl text-4xl font-bold  sm:mx-auto lg:mx-0 mb-4">
                 We help you help your friends
@@ -43,9 +43,9 @@ export function CompanyBanner() {
                 alt="company"
               />
             </div>
-          </div>
+          </div> */}
 
-          <div className="md:w-10/12 w-11/12 flex flex-wrap mx-auto">
+          {/* <div className="md:w-10/12 w-11/12 flex flex-wrap mx-auto">
             <div className="md:w-7/12 w-12/12 md:block hidden md:pt-20 pb-20 mx-auto">
               <img
                 className=" mt-0 w-4/5 rounded-3xl"
@@ -74,9 +74,9 @@ export function CompanyBanner() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="md:w-10/12 w-11/12 flex flex-wrap mx-auto">
+          {/* <div className="md:w-10/12 w-11/12 flex flex-wrap mx-auto">
             <div className="text-center w-12/12 pt-12 pb-20 mx-auto">
               <div className="md:w-9/12 w-12/12 mx-auto">
                 <h1 className="text-black lg:text-6xl text-4xl font-bold  sm:mx-auto lg:mx-0 mb-4">
@@ -115,7 +115,7 @@ export function CompanyBanner() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </>
       ) : null}
     </>

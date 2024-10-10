@@ -13,9 +13,9 @@ function Home() {
       <Content />
       <Trusted />
       <HowItWorks />
-      <JobBoard title={false} />
+      {/* <JobBoard title={false} /> */}
       <CompanyBanner type={userType} />
-      <SocialMedia />
+     
       <Banner
         title="Ready to apply job?"
         button="Explore the job board"
