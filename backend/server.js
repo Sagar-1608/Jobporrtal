@@ -30,11 +30,16 @@ app.use(passportConfig.initialize());
 initRouter(app);
 
 // Start server
+
+app.get("/",(req,res)=>{
+  console.log("Your server is up and running.....");
+  return res.status(200).json({
+      success:true,
+      message:"Your server is up and running.....",
+  })
+})
+
 app.listen(port, () => {
   console.log(`Server started on port ${port}!`);
-  return res.status(200).json({
-        success:true,
-        message:"Your server is up and running.....",
-    })
   
 });
