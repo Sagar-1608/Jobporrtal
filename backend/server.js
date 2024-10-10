@@ -32,5 +32,9 @@ initRouter(app);
 // Start server
 app.listen(port, () => {
   console.log(`Server started on port ${port}!`);
+  return res.status(200).json({
+        success:true,
+        message:"Your server is up and running.....",
+    })
   
 });
